@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+    <title>발로란트 - 스크래치 다운로드</title>
+</head>
+<body>
+    <header class="css-header">
+        <img src="./icons/favicon.ico" width="75px" height="75px" class="js-no-interact" id="val-icon">
+        <span class="css-title">발로란트 - 스크래치 버전</span>
+        <a href="#" class="js-introduce">소개</a>
+        <a href="#" class="js-download">다운로드</a>
+        <a href="#" class="js-rules">규칙</a>
+        <a href="#" class="js-tips">플레이 팁</a>
+        <p id="dummy"></p>
+    </header>
+    <div class="css-introduce css-content-white">
+        <h2>스크래치 - 발로란트</h2>
+        <p>
+            <a href="https://namu.wiki/w/%EB%B0%9C%EB%A1%9C%EB%9E%80%ED%8A%B8" class="js-newtab">발로란트</a>
+            에서 영감을 얻어 만든 스크래치 FPS 게임이다. 이름은 <b>스크래치 발로란트</b> 이고, 줄여서 <b><s>스발</s></b> 이라고 부른다.
+            <br>
+            <b>손재경</b>이 만들었고, 버그가 좀 있다. 또한 다소 폭력적인 장면이 나온다.
+
+            <p>내가 직접 이 게임 심의를 분류한다면 :</p>
+            <div class="css-game-level-wrap js-no-interact">
+                <div class="css-game-level">
+                    <img src="./images/teens.png" alt="18" width="75px" height="85px">
+                    <br>
+                    <img src="./images/grade1.gif" alt="선정성">
+                    <img src="./images/grade2.gif" alt="폭력성">
+                    <img src="./images/grade3.gif" alt="공포">
+                    <img src="./images/grade4.gif" alt="언어의 부적절성">
+                    <img src="./images/grade5.gif" alt="약물">
+                    <img src="./images/grade6.gif" alt="범죄">
+                    <img src="./images/grade7.gif" alt="사행성">
+                    <br>
+                    <div class="yes-no">
+                        <img src="./images/no.gif" alt="무">
+                        <img src="./images/yes.gif" alt="유">
+                        <img src="./images/no.gif" alt="무">
+                        <img src="./images/no.gif" alt="무">
+                        <img src="./images/no.gif" alt="무">
+                        <img src="./images/no.gif" alt="무">
+                        <img src="./images/no.gif" alt="무">
+                    </div>
+                </div>
+            </div>
+            <p class="css-but">
+                하지만 그닥 폭력적이지 않다.
+                그래도 폭력성으로 꼽을 만한 것은;
+                <br>
+                <i class="fa-solid fa-quote-left css-red"></i>
+                <br>
+                <span class="css-red">
+                    ＊ 과도한 폭력 표현
+                    <br>
+                    - 총기 등 사실적인 무기류를 이용한 전투 과정에서 붉은색 선혈 묘사 표현이 빈번하게 발생함
+                    <br>
+                    - 게임물심의위원회
+                </span>
+                <br>
+                <i class="fa-solid fa-quote-right css-red"></i>
+            </p>
+            <p>
+                그리고 이 게임은 난이도가 조금 있지만 대부분 꼼수가 있어서 쉽게 플레이가 가능하다.
+            </p>
+            <p>
+                <a href="./rating/" target="_blank">게임 평가하기 (클릭)</a>
+            </p>
+        </p>
+    </div>
+    <div class="css-download" style="display: none;">
+        <button class="css-download-button">
+            <i class="fa-solid fa-star"></i>
+            다운로드
+            <i class="fa-solid fa-star"></i>
+        </button>
+        <a href="https://downloads.scratch.mit.edu/desktop/Scratch%20Setup.exe">스크래치 오프라인 에디터 다운로드</a>
+    </div>
+    <div class="css-rules" style="display: none;">
+        <h2>게임 규칙</h2>
+        <pre>1. 플레이어는 첫 번째 맵에서 150의 체력을 가진다.
+2. 체력이 0 이하로 떨어지면 패배한다.
+3. W, A, S, D 또는 ↑, ←, ↓, → 를 눌러 상, 하, 좌, 우로 움직일 수 있다.
+4. 변수를 제외한 모든 것을 클릭하면 총이 발사된다.
+5. 스페이스바를 누르면 연사가 가능하다.
+6. 탄창은 기본 25발을 갖는다.
+7. 적은 기본 23발을 갖는다. 단, 데미지가 플레이어보다 조금 강하다.
+8. F를 누르면 첫번째 맵에서는 150을, 두번째 맵에서는 250의 체력을 회복한다. 단, 5번 밖에 쓰지 못한다.
+9. G를 누르면 무적 모드가 활성화되고, 모든 피해를 무시한다.
+10. K를 누르면 무적 모드가 비활성화되고, 다시 피해를 받는다.
+11. 하얀색은 벽이며, 닿을 시 튕겨낸다.
+12. 킹갓버그로 인해 캐릭터가 벽에 끼였을때는 전체화면 모드를 해제하고, 캐릭터를 적당한 위치로 끌어서 놓으면 된다.
+13. 가끔씩 캐릭터의 머리카락이 벽에 끼여서 움직이지 못할 때는 12번의 방법을 시도하면 된다.
+14. 스피커가 있다면 좋다. 여러가지 효과음이 들어있다.</pre>
+        <br>
+        14번에 대한 효과음;
+        <br>
+        피격 효과음 : <button class="js-play-effect js-play-hitmarker">재생</button>
+        <br>
+        발사 효과음 : <button class="js-play-effect js-play-fire">재생</button>
+        <br>
+        회복 효과음 : <button class="js-play-effect js-play-heal">재생</button>
+    </div>
+    <div class="css-tips" style="display: none;">
+        <div class="css-warn" onclick="console.log(this)">
+            <h2>
+                <i class="fa-solid fa-exclamation"></i>
+                &nbsp;주의&nbsp;
+                <i class="fa-solid fa-exclamation"></i>
+            </h2>
+            <p>본 공략은 아무리 해도 사망만 할때, (즉, 답이 없을때) 보는것을 추천한다. 게임을 시작하자마자 보는 것은 게임의 재미를 떨어뜨린다..</p>
+            <button class="js-back">돌아가기</button>
+            <button class="js-show">알겠으니까 그냥 보기</button>
+        </div>
+        <div class="css-tips-tip" style="display: none;">
+            <h2>플레이 팁</h2>
+            <p>1. 첫번째 구간</p>
+            <img src="https://i.imgur.com/y1XYrTh.png" alt="이미지 로딩 실패" class="example-image">
+            <p>이 위치로 가서 사격하면 된다.</p>
+            <br>
+            <p>2. 두번째 구간</p>
+            <img src="https://i.imgur.com/DfD3JZ9.png" alt="이미지 로딩 실패" class="example-image">
+            <p>또는</p>
+            <img src="https://i.imgur.com/mIIIDit.png" alt="이미지 로딩 실패" class="example-image">
+            <p>또는</p>
+            <img src="https://i.imgur.com/dl22u9j.gif" alt="이미지 로딩 실패" class="example-image">
+            <p>다음과 같이 무빙을 치면서 해도 나쁘지 않다.</p>
+            <br>
+            <p>3. 세번째 구간</p>
+            <img src="https://i.imgur.com/CyrWcpV.png" alt="이미지 로딩 실패" class="example-image">
+            <p>그냥 죽여라.</p>
+            <br>
+            <p>4. 두번째 맵</p>
+            <p>이번부터는 봇이 이리저리 움직이기 시작하는데 절대 당황하지 마라. 1번만 죽이면 더이상 움직이지 않고 속도가 매우 느리다.</p>
+            <p>백문이 불여일견, 듣는것보단 보는게 낫다. 그냥 영상을 보아라.</p>
+            <video src="https://media.discordapp.net/attachments/919120454747324436/1006855916341166191/2022_08_10_18_11_online-video-cutter.com.mp4" controls class="example-image"></video>
+            <p>약간의 팁을 주자면, 체력이 부족한데 적의 총알은 몇개씩 날라오면, F키를 눌러서 회복하자. 체력을 200+a로 채워준다.</p>
+            <p>또한 산탄 버그가 있는데, 이게 뭐냐면 총을 3번 쐈는데 총알은 수십개씩 발사되는 현상인데, 이 버그가 적 AI한테도 그대로 나타나니 주의하자.</p>
+            <p>&nbsp;&nbsp;&nbsp;ㄴ 보통 스페이스바를 누르고 이리저리 움직이면 나타나는 버그다.</p>
+        </div>
+    </div>
+    
+    <script src="./js/index.js"></script>
+</body>
+</html>

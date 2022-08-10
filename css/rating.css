@@ -1,0 +1,65 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: calc(var(--vh, 1vh) * 100);
+    background: #2f96c5;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    cursor: pointer;
+    transition: 0.3s all ease;
+    border: 1px solid #000;
+}
+
+button:hover {
+    transition: 0.3s all ease;
+    box-shadow: rgb(255, 185, 255) 0px 3px 8px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 30px;
+    text-shadow: -2px 0px #000000, 0px 2px #000000, 2px 0px #000000, 0px -2px #000000;
+}
+
+/* box-shadow: rgb(255, 185, 255) 0px 3px 8px; */
+/* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+
+.css-poll {
+    text-align: center;
+}
+
+.css-poll-yes, .css-poll-no {
+    margin-top: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+}
+
+.css-poll p {
+    color: #fff;
+    font-size: 18px;
+}
