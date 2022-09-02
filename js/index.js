@@ -96,7 +96,7 @@ tips.addEventListener("click", function() {
 })
 
 downloadButton.addEventListener("click", function() {
-    window.open("https://drive.google.com/uc?export=download&id=1LaYfBk_WPFJ7elouGyI7M5V8vr1MmVWf", '_blank')
+    window.open("https://drive.google.com/uc?export=download&id=1LaYfBk_WPFJ7elouGyI7M5V8vr1MmVWf", '_self')
 })
 
 const back_button = document.querySelector(".js-back"),
